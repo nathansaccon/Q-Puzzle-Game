@@ -36,7 +36,6 @@
             this.txtMoveCount = new System.Windows.Forms.TextBox();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.keyControls = new ArrowControls.ArrowPad();
-            this.cboxAnimations = new System.Windows.Forms.CheckBox();
             this.menuStripTop.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -104,22 +103,11 @@
             this.keyControls.Size = new System.Drawing.Size(225, 154);
             this.keyControls.TabIndex = 7;
             // 
-            // cboxAnimations
-            // 
-            this.cboxAnimations.AutoSize = true;
-            this.cboxAnimations.Location = new System.Drawing.Point(625, 145);
-            this.cboxAnimations.Name = "cboxAnimations";
-            this.cboxAnimations.Size = new System.Drawing.Size(77, 17);
-            this.cboxAnimations.TabIndex = 8;
-            this.cboxAnimations.Text = "Animations";
-            this.cboxAnimations.UseVisualStyleBackColor = true;
-            // 
             // frmPlay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(807, 504);
-            this.Controls.Add(this.cboxAnimations);
             this.Controls.Add(this.keyControls);
             this.Controls.Add(this.txtMoveCount);
             this.Controls.Add(this.panPlaySurface);
@@ -146,6 +134,5 @@
         private System.Windows.Forms.TextBox txtMoveCount;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
         private ArrowControls.ArrowPad keyControls;
-        private System.Windows.Forms.CheckBox cboxAnimations;
     }
 }
